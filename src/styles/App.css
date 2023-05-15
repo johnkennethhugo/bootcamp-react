@@ -1,0 +1,65 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app-header {
+  background-color: #000;
+  height: 100px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-contents {
+  background: radial-gradient(#ffffff,#fefefe);
+  margin-top: 30px;
+  min-height: calc(100vh - 222px);
+  position: relative;
+}
+
+.app-footer {
+  background-color: rgb(34,34,34);
+  font-size: calc(2vmin);
+  text-align: center;
+  padding: 20px;
+  color: rgb(84,84,84);
+  bottom: 0px;
+}
+
+.marquee-header {
+  background-color: #00008B;
+  min-height: 2.5vh;
+  font-weight: bold;
+  font-size: calc(7px + 2vmin);
+  color: white;
+}
+
+.status-header-error,
+.status-header-nominal {
+  background-color: #6BBD6E;
+  min-height: 2vh;
+  text-align: center;
+  font-size: calc(4px + 1.5vmin);
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.status-header-error {
+  background-color: #F44336;
+}
+
+.home-btn{
+  margin-top: 20px;
+  margin-left: 25px;
+  border: none;
+  text-decoration: underline;
+  font-weight: bold;
+  color: darkblue;
+  background-color: transparent;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  cursor: pointer;
+}
